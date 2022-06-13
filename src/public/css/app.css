@@ -1,0 +1,12 @@
+#header {
+  color: red; }
+
+#footer {
+  color: yellowgreen; }
+
+#app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray; }

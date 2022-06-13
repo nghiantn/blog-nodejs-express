@@ -1,0 +1,11 @@
+@import 'variables';
+@import 'header';
+@import 'footer';
+
+#app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: $main-color;
+}
