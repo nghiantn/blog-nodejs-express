@@ -6,6 +6,9 @@ const app = express()
 const PORT = 5000
 
 const route = require('./routes')
+const db = require('./config')
+
+db()
 
 const hbs = handlebars.create({
     extname: '.hbs'

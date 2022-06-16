@@ -1,6 +1,8 @@
+const postsRouter = require('./posts.route')
+
 function route(app) {
 
-    app.use('*', (req, res) => res.render('404'))
+    app.use('*', postsRouter)
 }
 
 module.exports = route
