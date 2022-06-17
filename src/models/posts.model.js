@@ -2,19 +2,10 @@ const mongoose = require('mongoose')
 const Schema = mongoose.Schema
 
 const Posts = new Schema({
-    title: {
-        type: String,
-        unique: true
-    },
-    description: {
-        type: String,
-    },
-    image: {
-        type: String
-    },
-    author: {
-        type: String,
-    }
+    title: { type: String, unique: true },
+    description: String,
+    image: String,
+    author: String
 }, {
     timestamps: true
 })

@@ -1,0 +1,28 @@
+<h3>Edit</h3>
+<form method="POST" action="/{{post._id}}?_method=PUT">
+    <input
+        type="text"
+        placeholder="Title"
+        name="title"
+        value="{{post.title}}"
+    />
+    <input
+        type="text"
+        placeholder="Description"
+        name="description"
+        value="{{post.description}}"
+    />
+    <input
+        type="text"
+        placeholder="Image"
+        name="image"
+        value="{{post.image}}"
+    />
+    <input
+        type="text"
+        placeholder="Author"
+        name="author"
+        value="{{post.author}}"
+    />
+    <button type="submit">Edit</button>
+</form>
